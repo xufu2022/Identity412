@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "Identity4121.BackgroundServer": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
