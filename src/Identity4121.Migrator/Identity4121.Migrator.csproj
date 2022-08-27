@@ -7,6 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="DbUp\MiniProfiler\0001-CreateTables.sql" />
+    <None Remove="DbUp\SqlServerDistributedCache\0001-CreateTables.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="DbUp\MiniProfiler\0001-CreateTables.sql" />
+    <EmbeddedResource Include="DbUp\SqlServerDistributedCache\0001-CreateTables.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="dbup" Version="4.6.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.8">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
